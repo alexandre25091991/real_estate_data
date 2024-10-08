@@ -8,8 +8,10 @@
     <h1>Real estate prices in your neighborhood</h1>
   </center>
 <center>
-    <input type="text" 
-    style="position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); margin: 20px; width: 50%; text-align: center;" input>
+   <form action="/extract" method="post">
+    <input type="text" name="address" placeholder="Enter your address">
+    <button type="submit">Search</button>
+   </form>
 </center>
 </body>
 </html>
